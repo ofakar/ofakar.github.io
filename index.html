@@ -3,85 +3,172 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name - IT Professional Resume</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/4bc0b14423.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>CV - Oskar Blickfeldt</title>
   </head>
-
   <body>
-    <header>
-      <h1>Your Name</h1>
-      <p>IT Professional</p>
-    </header>
-
     <div class="container">
-      <div class="section">
-        <h2>Om meg</h2>
-        <p>
-          Jeg utfordrer konstant mine verdier og holdninger i møter med
-          mennesker og står alltid i spissen for en åpen og inkluderende
-          kommunikasjon; noe jeg mener er sentralt for et kontruktivt samarbeid
-          og produktivitet. I praksis er jeg svært organisert og
-          løsningsorientert og opptatt av god dokumentasjon som forebygging mot
-          "brannslukking". Når jeg ikke er med familien bruker jeg mye tid på å
-          lære/oppdatere meg i teknisk kunnskap; SQL, Python, HTML/CSS/JS og
-          Markdown er et tidssug for tiden..
-        </p>
+      <div class="left-column">
+        <h1 id="navn">Oskar Blickfeldt</h1>
+        <section id="personalia">
+          <div class="awesome-div">
+            <i class="fa-solid fa-phone-alt awesome-i"></i>
+            <span>+4740108050</span>
+          </div>
+          <div class="awesome-div">
+            <i class="fa-solid fa-envelope awesome-i"></i>
+            <span>ofakar@gmail.com</span>
+          </div>
+          <div class="awesome-div">
+            <i class="fa-brands fa-linkedin awesome-i"></i>
+            <span
+              ><a href="https://www.linkedin.com/in/oblickfeldt/"
+                >linkedin.com/in/oblickfeldt/</a
+              ></span
+            >
+          </div>
+          <div class="awesome-div">
+            <i class="fa-solid fa-id-card awesome-i"></i>
+            <span>Førekort klasse B</span>
+          </div>
+        </section>
+        <section id="ommeg">
+          <h2>Om meg</h2>
+          <p>
+            Jeg utfordrer konstant mine verdier og holdninger i møter med
+            mennesker og legger stor vekt på en åpen og inkluderende
+            kommunikasjon; noe jeg mener er sentralt for et kontruktivt
+            samarbeid og produktivitet.<br />I praksis er jeg svært organisert
+            og løsningsorientert og opptatt av god dokumentasjon som forebygging
+            mot "brannslukking".<br />
+            Utenom arbeidstid bruker jeg mye tid på å lære og oppdatere meg i
+            teknisk kunnskap; SQL, Python, HTML/CSS/JS og Markdown er et tidssug
+            for tiden.
+          </p>
+        </section>
+        <section id="kunnskap">
+          <h2>IT-relatert kunnskap</h2>
+          <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Markdown</span>
+            <span>SQL Server</span>
+            <span>Windows Server</span>
+            <span>Confluence</span>
+            <span>Azure AD</span>
+            <span>Office 365</span>
+            <span>PowerShell</span>
+            <span>Linux</span>
+            <span>iOS</span>
+            <span>Android</span>
+            <span>Python</span>
+            <span>Nettverk</span>
+          </div>
+        </section>
+        <section id="utdanning">
+          <h2>Utdanning</h2>
+          <b>2013-2014: Universitetet i Oslo</b>
+          <p>
+            Jeg studerte fag innen logikk, matematikk (matriser og kalkulus) og
+            programmering med fokus på Java
+          </p>
+          <b>2012-2013: Sonans: Realfag</b>
+          <p>Matematikk R1 og R2 og fysikk FY1</p>
+        </section>
       </div>
 
-      <div class="section">
-        <h2>Personalia</h2>
-        <p>E-post: ofakar@gmail.com</p>
-        <p>Tlf: +4740108050</p>
-        <p>LinkedIn: https://www.linkedin.com/in/oblickfeldt/</p>
-        <p>Førerkort: Klasse B</p>
-      </div>
-
-      <div class="section">
+      <div class="right-column" id="arbeidserfaring">
         <h2>Arbeidserfaring</h2>
-        <ul>
-          <li>
-            <h3>Job Title, Company</h3>
-            <p>Month Year - Month Year</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              luctus urna sed urna ultricies ac tempor dui sagittis.
-            </p>
-          </li>
-          <li>
-            <h3>Job Title, Company</h3>
-            <p>Month Year - Month Year</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              luctus urna sed urna ultricies ac tempor dui sagittis.
-            </p>
-          </li>
-          <!-- Add more experiences as needed -->
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>Utdanning</h2>
-        <ul>
-          <li>
-            <h3>Degree, Institution</h3>
-            <p>Month Year - Month Year</p>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              luctus urna sed urna ultricies ac tempor dui sagittis.
-            </p>
-          </li>
-          <!-- Add more education as needed -->
-        </ul>
-      </div>
-
-      <div class="section">
-        <h2>Kompetanse</h2>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <!-- Add more skills as needed -->
-        </ul>
+        <section>
+          <h3>IT-konsulent</h3>
+          <h4>August 2022-May 2023: CompuGroup Medical Norway</h4>
+          <p>
+            Møter, forberedelser og avtaler med kunder, installasjon av
+            pasientjournalsystemet CGM Journal (samt tilhørende tjenester som
+            DIPS Communicator, DIPS Interactor, Helsenorge og Convene),
+            oppfølging/kvalitetssikring/akseptansetesting og dokumentasjon i
+            form av mail-korrespondanse og Confluence.
+          </p>
+          <p>
+            Jobber mye med windows server (tilgangsstyring,
+            fil/mappe-strukturering, config-filer), SQL server (SQL scripting,
+            selects, restore, update, delete, backup, optimaliserings, osv),
+            Confluence (dokumentasjon ved hjelp av markdown, HTML og CSS) og
+            automatisering (via SQL/PowerShell/batch-scripts, samt til en viss
+            grad Python)
+          </p>
+        </section>
+        <section>
+          <h3>Bærum kommune</h3>
+          <h4>Jun 2020-des 2021 | IT-tekniker</h4>
+          <p>
+            <b>IT-teknisk beredskap</b> på Bærum vaksinesenter (under
+            pandemien): Ansvar for oppsett/feilsøk/vedlikehold av
+            mobiler/PCer/nettverk, samt administrasjon av tilganger for
+            helsepersonell i AD/Azure. Identifisering, kartlegging og retting av
+            feil og mangler rundt vaksineregistreringen. Ansvar for fysisk
+            nedrigg og flytt av vaksinesenter til ny lokasjon i en
+            overgangsfase.<br />
+            <b>On-site IT-tekniker</b>: Oppsett/feilsøk/vedlikehold av
+            programvare/PCer/skrivere/nettverk på kommunens mange institusjoner
+          </p>
+          <h4>Jan 2022-jun 2022 | Hjelpemiddeltekniker</h4>
+          <p>
+            Jobbet på Avd "Ergo-, fysioterapi og hjelpemidler", med
+            administrasjon, montering, reparasjon og levering av hjelpemidler, i
+            samarbeid med "NAV Hjelpemiddelsentralen"
+          </p>
+        </section>
+        <section></section>
+        <section>
+          <h3>2011-2019 | Gruppeleder/koordinator | Oslo Jazzfestival</h3>
+          <p>
+            Leder og personalansvarlig for "teknisk gruppe", med ansvar for
+            transport, opp-/nedrigg av backline, samt personalkommunikasjon og
+            vaktliste under festivalen.<br />
+            Møter og planlegging av logistikk og bemanningsbehov rundt opp til
+            140 konserter/20 spillesteder i Oslo i forkant av festivalen.
+          </p>
+        </section>
+        <section>
+          <h3>2015-2018 | IT-support | Telenor/Telenoreksperten</h3>
+          <h4></h4>
+          <p>
+            Teknisk support via telefon og fjernhjelp. Betaltjeneste/3. linje
+            for <em>ikke kun</em> Telenor-kunder:<br />
+            Feilsøk/service rundt alt mulig
+            nettverk/maskinvare/programvare/e-post/CarPlay/AndroidAuto/smartklokker/Windows/iOS/Android/Linux/PCer/mobiler/rutere/mobile
+            sendere/melkemaskiner/osv.
+          </p>
+        </section>
+        <h3>Tidligere jobber</h3>
+        <br />
+        <section>
+          <b>2013-2015 | Telenorbutikken</b>
+          <p>Salg/suppoprt/assisterende butikksjef</p>
+        </section>
+        <section>
+          <b>2005-2012 | Meny</b>
+          <p>Avdelingsleder/bestillingsansvarlig</p>
+        </section>
+        <section>
+          <b>2002-2003 | Tromsø Symfoniorkester</b>
+          <p>Administrasjonsmedarbeider/arkivarassistent</p>
+        </section>
+        <section>
+          <b>1997-2002 | Diverse sommerjobber</b>
+          <p>Diverse assisterende roller</p>
+        </section>
       </div>
     </div>
   </body>
