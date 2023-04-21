@@ -1,6 +1,6 @@
 /* --------------
    Felles styling
-   --------------- */
+   -------------- */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -8,24 +8,24 @@ body {
   margin: 0;
   padding: 0;
   color: #3d3d3d;
-  background: rgb(61, 61, 61);
+  /* background: rgb(61, 61, 61);
   background: linear-gradient(
     90deg,
     rgba(61, 61, 61, 1) 35%,
     rgba(236, 233, 225, 1) 65%
-  );
+  ); */
 }
 
 .container {
   display: flex;
-  max-width: 1200px;
+  max-width: 1200px;  
   margin: 0px auto;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 /* ---------------
-     Venstre kolonne
-     --------------- */
+   Venstre kolonne
+   --------------- */
 
 .left-column {
   flex: 1;
@@ -100,8 +100,8 @@ a:active {
 }
 
 /* -------------
-     Høyre kolonne
-     ------------- */
+   Høyre kolonne
+   ------------- */
 
 .right-column {
   flex: 2;
